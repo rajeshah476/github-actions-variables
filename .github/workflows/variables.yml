@@ -9,4 +9,7 @@ jobs:
 
     steps:
     - name: Echo ACCESS_ID
-      run: echo "${{ vars.ACCESS_ID }}"
+      run: echo "${{ vars.ACCESS_ID }}"    
+    - name: Echo Secrets
+      run: echo "${{ secrets.ACCESS_ID }}"
+
